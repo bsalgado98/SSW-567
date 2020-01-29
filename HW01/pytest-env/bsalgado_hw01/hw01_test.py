@@ -9,5 +9,3 @@ def test_classify_triangle():
     assert hw01.classify_triangle(-21, -28, -35) == "scalene right"
     assert hw01.classify_triangle(3.99999999, 4.99999999, 5.99999999) == "scalene not right"
     assert hw01.classify_triangle(2.99999999, 3.99999999, 4.99999999) == "scalene not right"
-    assert hw01.classify_triangle(0, 0, 0) == "equilateral right"
-    assert hw01.classify_triangle(0.01, 0.01, 0.00999999) == "isosceles not right"

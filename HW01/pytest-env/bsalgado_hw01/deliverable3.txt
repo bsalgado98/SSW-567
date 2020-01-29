@@ -1,0 +1,18 @@
+I encountered two primary challenges in this assignment. The first was with attempting to do basic operations in python such as comparison, flow control, and looping. I am
+moderately experienced in JavaScript and Java so the logic side of programming this assignment wasn't too complicated, but translating what I wanted to do into Python 3 syntax
+involved a lot more Stack Overflow than I expected! The second challenge came with not understanding exactly how pytest was able to read my function from a separate file. It 
+took a little while to figure out how to import my hw01.py file into the test file and then properly execute my tests but I eventually figured it out.
+
+The requirements for this assignment seemed intentionally vague. For example, the requirements do not specify the string format that qualifies as a correct answer nor does it 
+specify what qualifies as a proper triangle, just that three sides need to be classified in relation to each other. This was most likely done in order to allow students to 
+experiment with what they believed were requirements that made sense, and also to demonstrate the difficulty associated with working with vague requirements. I believe the 
+decision to be non-specific was what added an extra layer of challenge.
+
+The challenges with the tools mostly involved me trying to wrap my head around how virtual environemnts work in Python. I am mostly accustomed to node_modules with JavaScript 
+so using virtual env alongside pip installs were a familiar but still distinct concept that I still have yet to master. Apart from this, pytest's assert statements were an 
+intuitive part of this assignment and writing my test cases were easy enough that they allowed me to focus on writing actual creative cases instead of focusing entirely on
+the tooling.
+
+Determining when I was done writing test cases was an unclear process. My main focus for testing was to check standard as well as edge cases. This included testing decimals 
+and negative numbers as well as different cases that may or may not have resulted in right triangle classification. I aimed to write at least 10 to provide basic coverage for
+my function. This amount of tests seemed practical enough for me to accomplish especially with respect to the simplicity of the program.
