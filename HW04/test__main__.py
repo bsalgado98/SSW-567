@@ -6,4 +6,6 @@
 import retrieve_github
 
 def test_retrieve_github():
-    assert retrieve_github.retrieve_user('bsalgado98') != None
+    user = retrieve_github.retrieve_user('bsalgado98')
+    assert  user != None
+    assert retrieve_github.retrieve_repos(user) != None
