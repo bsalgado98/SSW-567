@@ -1,0 +1,6 @@
+************* Module triangle
+triangle.py:12:0: R0911: Too many return statements (8/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.38/10 (previous run: 9.38/10, +0.00)
+
